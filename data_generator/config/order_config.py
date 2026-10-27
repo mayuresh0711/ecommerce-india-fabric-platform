@@ -1,0 +1,25 @@
+ORDER_STATUS_DISTRIBUTION = {
+    "Pending": 0.05,
+    "Confirmed": 0.10,
+    "Shipped": 0.15,
+    "Delivered": 0.60,
+    "Cancelled": 0.07,
+    "Returned": 0.03,
+}
+
+
+
+DISCOUNT_RATE_MIN = 0.00
+DISCOUNT_RATE_MAX = 0.20
+
+
+TAX_RATE_MIN = 0.05
+TAX_RATE_MAX = 0.18
+
+
+SHIPPING_AMOUNT_MIN = 0.00
+SHIPPING_AMOUNT_MAX = 500.00
+
+
+ORDER_ITEM_COUNT_MIN = 1
+ORDER_ITEM_COUNT_MAX = 5

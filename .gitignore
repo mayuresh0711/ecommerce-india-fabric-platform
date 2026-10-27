@@ -1,0 +1,46 @@
+﻿# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# Local databases, backups and exports
+*.db
+*.sqlite
+*.bak
+
+# Review generated data before publishing
+# Generated data
+
+# Generated data
+data_generator/output/
+
+data_generator/validation/validate_rollback_incremental_data.py
+
+# Local-only maintenance, experimental and test scripts
+data_generator/scripts/*_old.py
+data_generator/scripts/*_test.py
+data_generator/scripts/test_*.py
+data_generator/scripts/repair_incremental_timestamps.py
+data_generator/scripts/rollback_incremental_data.py
+data_generator/scripts/validate_*_config.py
