@@ -12,6 +12,12 @@ This project demonstrates a layered data engineering platform that transforms op
 
 ## Architecture
 
+### Visual Architecture Overview
+
+![View the full E-Commerce Data Engineering Architecture diagram](docs/architecture/e-commerce-data-engineering-architecture.png)
+
+
+
 ```mermaid
 flowchart LR
     SRC["Source Systems<br/>SQL Server on AWS RDS<br/>Customer Events (JSONL)"]
