@@ -266,6 +266,14 @@ The project has also used manifest and checkpoint state to investigate processin
 
 **Overall project status: In progress.**
 
+## Pipeline Execution Evidence
+
+### Master Pipeline
+![Master pipeline orchestration](docs/screenshots/master-pipeline.png)
+
+### Successful Pipeline Run
+![Successful master pipeline run](docs/screenshots/master-pipeline-run-history.png)
+
 These are recorded project progress notes, not test results produced by the README itself.
 
 ## 10. Repository Structure
