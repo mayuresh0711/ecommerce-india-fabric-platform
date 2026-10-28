@@ -14,7 +14,7 @@ This project demonstrates a layered data engineering platform that transforms op
 
 ### Visual Architecture Overview
 
-![View the full E-Commerce Data Engineering Architecture diagram](docs/architecture/e-commerce-data-engineering-architecture.png)
+![E-Commerce Data Engineering Architecture](docs/architecture/e-commerce-data-engineering-architecture.png)
 
 
 
